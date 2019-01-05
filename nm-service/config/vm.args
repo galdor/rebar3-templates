@@ -1,0 +1,6 @@
+-sname {{name}}
+
+-setcookie {{name}}_cookie
+
++A 16
++pc unicode

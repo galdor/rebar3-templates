@@ -1,0 +1,19 @@
+{description, "Basic server application."}.
+{variables, [{name, "service"},
+             {description, "A simple service"},
+             {version, "0.1.0"},
+             {copyright_year, "2019"},
+             {author_name, "Nicolas Martyanoff"},
+             {author_email, "khaelin@gmail.com"}
+            ]}.
+
+{template, "nm-service/LICENSE", "{{name}}/LICENSE"}.
+{template, "nm-service/rebar.config", "{{name}}/rebar.config"}.
+{template, "nm-service/gitignore", "{{name}}/.gitignore"}.
+
+{template, "nm-service/config/sys.config", "{{name}}/config/sys.config"}.
+{template, "nm-service/config/vm.args", "{{name}}/config/vm.args"}.
+
+{template, "nm-service/src/service.app.src", "{{name}}/src/{{name}}.app.src"}.
+{template, "nm-service/src/service_app.erl", "{{name}}/src/{{name}}_app.erl"}.
+{template, "nm-service/src/service_sup.erl", "{{name}}/src/{{name}}_sup.erl"}.
