@@ -1,6 +1,6 @@
 {description, "Basic server application."}.
 {variables, [{name, "service"},
-             {description, "A simple service"},
+             {description, "A simple service."},
              {version, "0.1.0"},
              {copyright_year, "2020"},
              {author_name, "Nicolas Martyanoff"},
