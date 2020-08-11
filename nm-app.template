@@ -1,0 +1,16 @@
+{description, "Basic library application."}.
+{variables, [{name, "app"},
+             {description, "A simple library application."},
+             {version, "0.1.0"},
+             {copyright_year, "2020"},
+             {author_name, "Nicolas Martyanoff"},
+             {author_email, "khaelin@gmail.com"}
+            ]}.
+
+{template, "nm-app/LICENSE", "{{name}}/LICENSE"}.
+{template, "nm-app/rebar.config", "{{name}}/rebar.config"}.
+{template, "nm-app/gitignore", "{{name}}/.gitignore"}.
+
+{template, "nm-app/src/app.app.src", "{{name}}/src/{{name}}.app.src"}.
+{template, "nm-app/src/app_app.erl", "{{name}}/src/{{name}}_app.erl"}.
+{template, "nm-app/src/app_sup.erl", "{{name}}/src/{{name}}_sup.erl"}.
