@@ -17,11 +17,11 @@
  [{description, "@@description@@"},
   {vsn, "@@version@@"},
   {registered, []},
+  {mod, {@@name@@_app, []}},
   {applications,
    [kernel,
     stdlib,
-    crypto,
-    @@name@@
+    crypto
    ]},
   {env, []},
   {modules, []},
