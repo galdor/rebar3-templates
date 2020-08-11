@@ -10,6 +10,7 @@
 {template, "nm-app/LICENSE", "{{name}}/LICENSE"}.
 {template, "nm-app/rebar.config", "{{name}}/rebar.config"}.
 {template, "nm-app/gitignore", "{{name}}/.gitignore"}.
+{template, "nm-app/GNUmakefile", "{{name}}/GNUmakefile"}.
 
 {template, "nm-app/src/app.app.src", "{{name}}/src/{{name}}.app.src"}.
 {template, "nm-app/src/app_app.erl", "{{name}}/src/{{name}}_app.erl"}.

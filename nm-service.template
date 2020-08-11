@@ -10,6 +10,7 @@
 {template, "nm-service/LICENSE", "{{name}}/LICENSE"}.
 {template, "nm-service/rebar.config", "{{name}}/rebar.config"}.
 {template, "nm-service/gitignore", "{{name}}/.gitignore"}.
+{template, "nm-service/GNUmakefile", "{{name}}/GNUmakefile"}.
 
 {template, "nm-service/config/sys.config", "{{name}}/config/sys.config"}.
 {template, "nm-service/config/vm.args", "{{name}}/config/vm.args"}.
