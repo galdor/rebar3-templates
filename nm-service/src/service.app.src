@@ -20,8 +20,7 @@
   {mod, {@@name@@_app, []}},
   {applications,
    [kernel,
-    stdlib,
-    crypto]},
+    stdlib]},
   {env, []},
   {modules, []},
 
