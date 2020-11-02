@@ -25,4 +25,7 @@ start_link() ->
 
 init([]) ->
   Children = [],
-  {ok, {{one_for_one, 1, 5}, Children}}.
+  Flags = #{strategy => one_for_one,
+            intensity => 1,
+            period => 5},
+  {ok, {Flags, Children}}.
