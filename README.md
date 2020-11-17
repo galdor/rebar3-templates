@@ -9,6 +9,5 @@ I highly suggest you fork the repository and modify templates so that they
 contain exactly what you want.
 
 # Templates
-- `nm-service`: an OTP application for a stand-alone server.
 - `nm-app`: an OTP application for a library to be included in another
   application.
