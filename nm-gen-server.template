@@ -1,0 +1,7 @@
+{description, "Minimal gen_server module."}.
+{variables, [{name, "server"},
+             {copyright_year, "2020"},
+             {author_name, "Nicolas Martyanoff"},
+             {author_email, "khaelin@gmail.com"}]}.
+
+{template, "nm-gen-server/server.erl", "src/{{name}}.erl"}.

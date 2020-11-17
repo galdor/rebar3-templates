@@ -11,3 +11,4 @@ contain exactly what you want.
 # Templates
 - `nm-app`: an OTP application for a library to be included in another
   application.
+- `nm-gen-server`: a minimal gen_server module.
