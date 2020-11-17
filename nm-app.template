@@ -4,8 +4,7 @@
              {version, "0.1.0"},
              {copyright_year, "2020"},
              {author_name, "Nicolas Martyanoff"},
-             {author_email, "khaelin@gmail.com"}
-            ]}.
+             {author_email, "khaelin@gmail.com"}]}.
 
 {template, "nm-app/LICENSE", "{{name}}/LICENSE"}.
 {template, "nm-app/rebar.config", "{{name}}/rebar.config"}.
