@@ -53,7 +53,7 @@ terminate(_Reason, _State) ->
         et_gen_server:handle_call_ret(state()).
 handle_call(Msg, From, State) ->
   ?LOG_WARNING("unhandled call ~p from ~p", [Msg, From]),
-  {noreply, State}.
+  {reply, unhandled, State}.
 
 -spec handle_cast(term(), state()) -> et_gen_server:handle_cast_ret(state()).
 handle_cast(Msg, State) ->
