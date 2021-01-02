@@ -1,6 +1,6 @@
 {description, "Minimal gen_server module."}.
 {variables, [{name, "server"},
-             {copyright_year, "2020"},
+             {copyright_year, "2021"},
              {author_name, "Nicolas Martyanoff"},
              {author_email, "khaelin@gmail.com"}]}.
 

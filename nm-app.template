@@ -2,7 +2,7 @@
 {variables, [{name, "app"},
              {description, "A simple library application."},
              {version, "git"},
-             {copyright_year, "2020"},
+             {copyright_year, "2021"},
              {author_name, "Nicolas Martyanoff"},
              {author_email, "khaelin@gmail.com"}]}.
 
