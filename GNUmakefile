@@ -1,4 +1,3 @@
-
 REBAR3_TEMPLATE_DIR = ~/.config/rebar3/templates
 
 TEMPLATE_FILES = $(wildcard *.template)
